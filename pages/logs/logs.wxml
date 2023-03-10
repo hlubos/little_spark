@@ -1,0 +1,33 @@
+<!--logs.wxml-->
+<view class="title">第三章</view>
+<view class="container">
+    <block wx:for="{{info}}" wx:key="index">
+        <view class="text-content" bindtap="goto" data-id="{{index}}" >{{item}}</view>
+    </block>
+</view>
+<view class="title">第四章</view>
+<view class="container">
+    <navigator class="text-content" url="/pages/demo2/view/view">视图容器view</navigator>
+    <navigator class="text-content" url="/pages/demo2/scroll-view/scroll-view">视图容器scroll-view</navigator>
+    <navigator class="text-content" url="/pages/demo2/swiper/swiper">视图容器swiper</navigator>
+    <navigator class="text-content" url="/pages/demo2/movable-view/movable-view">视图容器movable-view</navigator>
+    <navigator class="text-content" url="/pages/demo2/cover-view/cover-view">视图容器cover-view</navigator>
+</view>
+<view class="container">
+    <navigator class="text-content" url="/pages/demo2/icon/icon">基础组件icon</navigator>
+    <navigator class="text-content" url="/pages/demo2/text/text">基础组件text</navigator>
+    <navigator class="text-content" url="/pages/demo2/rich-text/rich-text">基础组件rich-text</navigator>
+    <navigator class="text-content" url="/pages/demo2/progress/progress">基础组件progress</navigator>
+</view>
+<view class="container">
+    <navigator class="text-content" url="/pages/demo2/audio/audio">媒体组件audio</navigator>
+    <navigator class="text-content" url="/pages/demo2/image/image">媒体组件image</navigator>
+    <navigator class="text-content" url="/pages/demo2/video/video">媒体组件video</navigator>
+    <navigator class="text-content" url="/pages/demo2/camera/camera">媒体组件camera</navigator>
+</view>
+<view class="title">第五章</view>
+<view class="container">
+    <navigator class="text-content" url="/pages/demo3/request/request">网络请求request</navigator>
+    <navigator class="text-content" url="/pages/demo3/upload/upload">文件上传</navigator>
+    <navigator class="text-content" url="/pages/demo3/download/download">文件下载</navigator>
+</view>

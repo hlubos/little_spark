@@ -1,0 +1,30 @@
+/* pages/demo/align-content/align-content.wxss */
+.title{
+    text-align: center;
+  }
+  .myContainer{
+    margin: 80rpx auto;
+    width: 600rpx;
+    height: 500rpx;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;/* stretch(默认值) flex-start center flex-end space-between space-around space-evenly */
+  }
+  .demo{
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightgreen;
+  }
+  .A{
+    width: 80px;
+  }
+  .B{
+    width: 100px;
+  }
+  .C{
+    width: 130px;
+  }

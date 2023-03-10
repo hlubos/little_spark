@@ -1,0 +1,7 @@
+<!--pages/demo/align-items/align-items.wxml-->
+<view class="title">容器属性 align-items的用法</view>
+<view class="myContainer">
+    <view class="demo">A</view>
+    <view class="demo">B</view>
+    <view class="demo">C</view>
+</view>

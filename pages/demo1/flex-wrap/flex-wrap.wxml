@@ -1,0 +1,7 @@
+<!--pages/demo01/flex-wrap/flex-wrap.wxml-->
+<view class="title">容器属性 flex-wrap的用法</view>
+<view class="myContainer">
+    <view class="demo">A</view>
+    <view class="demo">B</view>
+    <view class="demo">C</view>
+</view>

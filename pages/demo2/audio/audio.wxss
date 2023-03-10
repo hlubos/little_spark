@@ -1,0 +1,19 @@
+/* pages/demo2/audio/audio.wxss */
+button{
+    margin: 10rpx;
+    margin-left: 50rpx;
+}
+.title{
+    text-align: center;
+    margin: auto;
+}
+.demo-box{
+    margin: auto;
+    width: 700rpx;
+    height: 300rpx; 
+    border: 1px dashed black;
+}
+audio{
+    margin-top: 20rpx;
+    margin-left: 50rpx;
+}

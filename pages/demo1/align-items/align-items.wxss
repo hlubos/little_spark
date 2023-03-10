@@ -1,0 +1,21 @@
+/* pages/demo/align-items/align-items.wxss */
+.title{
+    text-align: center;
+  }
+  
+  .myContainer{
+    margin: 80rpx auto;
+    width: 600rpx;
+    height: 500rpx;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .demo{
+    height: 100rpx;
+    line-height: 100rpx;
+    border: 1px solid;
+    text-align: center;
+    background-color: lightgreen;
+  }

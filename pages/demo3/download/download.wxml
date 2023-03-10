@@ -1,0 +1,9 @@
+<view class="title">2. 文件上传/下载</view>
+<view class="demo-box">
+    <view class="title">wx.downloadFile(OBJECT)</view>
+    <block wx:if='{{isDownload}}'>
+        <image mode="widthFix" src="{{src}}"></image>
+        <button bindtap="reset">重置</button>
+    </block>
+    <button wx:else type="primary" bindtap="download">单击此处下载图片</button>
+</view>

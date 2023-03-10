@@ -1,0 +1,8 @@
+<!--pages/demo/align-self/align-self.wxml-->
+<view class="title">项目属性 align-self的用法</view>
+<view class="myContainer">
+    <view class="demo A">A</view>
+    <view class="demo B">B</view>
+    <view class="demo C">C</view>
+    <view class="demo">D</view>
+</view>

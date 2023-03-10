@@ -1,0 +1,18 @@
+<!--pages/demo2/progress/progress.wxml-->
+<view class="title">2.基础组件progress的简单应用</view>
+<view class="demo-box">
+    <view class="title">（1）进度条右侧显示百分比</view>
+    <progress percent="25" show-info="true" />
+</view>
+<view class="demo-box">
+    <view class="title">（2）线条宽度为20的进度条</view>
+    <progress percent="50" stroke-width="20" />
+</view>
+<view class="demo-box">
+    <view class="title">（3）自定义颜色的进度条</view>
+    <progress percent="80" activeColor="red" />
+</view>
+<view class="demo-box">
+    <view class="title">（4）带有动画效果的进度条</view>
+    <progress percent="100" active />
+</view>

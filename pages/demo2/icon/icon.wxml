@@ -1,0 +1,20 @@
+<!--pages/demo2/icon/icon.wxml-->
+<view class="title">2.基础组件icon的简单应用</view>
+<view class="demo-box">
+    <view class="title">(1) 内容的变化</view>
+    <block wx:for='{{iconType}}'>
+        <icon type="{{item}}" size="36"/>
+    </block>
+</view>
+<view class="demo-box">
+    <view class="title">(2) 颜色的变化</view>
+    <block wx:for='{{iconColor}}'>
+        <icon type="info" color="{{item}}" size="36"/>
+    </block>
+</view>
+<view class="demo-box">
+    <view class="title">(3) 大小的变化</view>
+    <block wx:for='{{iconSize}}'>
+        <icon type="info" size="{{item}}"/>
+    </block>
+</view>

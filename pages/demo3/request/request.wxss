@@ -1,0 +1,24 @@
+input,button{
+    margin: 15rpx auto;
+}
+.status{
+    margin: 15rpx;
+    text-align: left;
+}
+.title{
+    margin: 20rpx auto;
+    text-align: center;
+
+}
+.demo-box{
+    margin: auto;
+    width: 700rpx;
+    height: 400rpx; 
+    border: 1px dashed black;
+}
+input{
+    width: 650rpx;
+    height:80rpx;
+    border: 1px solid darkgray;
+    text-align: center;
+}

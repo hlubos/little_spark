@@ -1,0 +1,7 @@
+<view class="title">2.文件上传/下载</view>
+<view class="demo-box">
+    <view class="title">wx.uploadFile(OBJECT)</view>
+    <image wx:if="{{src}}" src="{{src}}" mode="widthFix"></image>
+    <button bindtap="chooseImage">选择文件</button>
+    <button type="primary" bindtap="uploadFile">开始上传</button>
+</view>

@@ -1,0 +1,11 @@
+/* pages/demo2/camera/camera.wxss */
+.title{
+    text-align: center;
+    margin: auto;
+}
+.demo-box{
+    margin: auto;
+    width: 700rpx;
+    height: 300rpx; 
+    border: 1px dashed black;
+  }

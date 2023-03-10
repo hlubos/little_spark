@@ -1,0 +1,9 @@
+.title{
+    margin: 20rpx auto;
+    text-align: center;
+  
+  }
+  .demo-box{
+    margin: auto 40rpx; 
+    border: 1px dashed black;
+  }

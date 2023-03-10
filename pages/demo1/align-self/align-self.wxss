@@ -1,0 +1,32 @@
+/* pages/demo/align-self/align-self.wxss */
+.title{
+    text-align: center;
+  }
+  .myContainer{
+    margin: 80rpx auto;
+    width: 600rpx;
+    height: 500rpx;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; 
+  }
+  .demo{
+    width: 50px;
+    line-height: 100rpx;
+    margin: 15rpx;
+    text-align: center;
+    background-color: lightgreen;
+  }
+  .A{
+    height: 50px;
+    align-self: flex-start;
+  }
+  .B{
+    height: 50px;
+    align-self: center;
+  }
+  .C{
+    height: 50px;
+    align-self: flex-end;
+  }

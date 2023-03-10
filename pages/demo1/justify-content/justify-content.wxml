@@ -1,0 +1,7 @@
+<!--pages/demo/justifycontent/justifycontent.wxml-->
+<view class="title">容器属性 justify-content的用法</view>
+<view class="myContainer">
+    <view class="demo">A</view>
+    <view class="demo">B</view>
+    <view class="demo">C</view>
+</view>

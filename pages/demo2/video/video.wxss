@@ -1,0 +1,14 @@
+/* pages/demo2/video/video.wxss */
+video{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: auto;
+}
+.demo-box{
+    margin: auto;
+    width: 700rpx;
+    height: 400rpx; 
+    border: 1px dashed black;
+  }

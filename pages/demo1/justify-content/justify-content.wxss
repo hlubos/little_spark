@@ -1,0 +1,21 @@
+/* pages/demo/justifycontent/justifycontent.wxss */
+.myContainer{
+    margin: 80rpx auto;
+    width: 600rpx;
+    height: 500rpx;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .demo{
+    width: 50px;
+    height: 100rpx;
+    line-height: 100rpx;
+    border: 1px solid;
+    text-align: center;
+    background-color: lightgreen;
+  }
+  .title{
+    text-align: center;
+  }

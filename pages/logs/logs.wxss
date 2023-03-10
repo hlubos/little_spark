@@ -1,0 +1,33 @@
+/**index.wxss**/
+page{
+  background-color: #F5F5F5;
+}
+.container{
+  padding: 10px 20px;
+  align-content: center;
+}
+.text-content{  
+  width: 500rpx;
+  padding: 10px;  
+  align-content: center;
+  border-bottom: 1rpx solid #F5F5F5;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  line-height: 80rpx;
+  height: 80rpx;
+  font-size: 20px;
+  width: 600rpx;
+  background-color: #FFFFFF;
+}
+.demo-box{
+  margin: 20rpx;
+  width: 700rpx;
+  height: 200rpx; 
+  border: 1px dashed black;
+}

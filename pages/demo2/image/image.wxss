@@ -1,0 +1,16 @@
+/* pages/demo2/image/image.wxss */
+image{
+    width: 260rpx;
+    height: 260rpx;
+    margin-left: 200rpx;
+}
+.title{
+    text-align: center;
+    margin: auto;
+}
+.demo-box{
+    margin: auto;
+    width: 700rpx;
+    height: 400rpx; 
+    border: 1px dashed black;
+  }

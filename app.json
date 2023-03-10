@@ -1,0 +1,70 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/search/search",
+        "pages/user/user",
+        "pages/demo1/flex-direction/flex-direction",
+        "pages/demo1/flex-wrap/flex-wrap",
+        "pages/demo1/justify-content/justify-content",
+        "pages/demo1/align-items/align-items",
+        "pages/demo1/align-content/align-content",
+        "pages/demo1/align-self/align-self",
+        "pages/demo2/view/view",
+        "pages/demo2/scroll-view/scroll-view",
+        "pages/demo2/swiper/swiper",
+        "pages/demo2/movable-view/movable-view",
+        "pages/demo2/cover-view/cover-view",
+        "pages/demo2/icon/icon",
+        "pages/demo2/text/text",
+        "pages/demo2/rich-text/rich-text",
+        "pages/demo2/progress/progress",
+        "pages/demo2/audio/audio",
+        "pages/demo2/image/image",
+        "pages/demo2/video/video",
+        "pages/demo2/camera/camera",
+        "pages/demo3/request/request",
+        "pages/demo3/upload/upload",
+        "pages/demo3/download/download"
+    ],
+    "tabBar": {
+        "selectedColor": "#0189fe",
+        "color": "#a4a4a4",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "pages/img/index0.png",
+                "selectedIconPath": "pages/img/index1.png"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "分类",
+                "iconPath": "pages/img/logs0.png",
+                "selectedIconPath": "pages/img/logs1.png"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "text": "搜索",
+                "iconPath": "pages/img/search0.png",
+                "selectedIconPath": "pages/img/search1.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "我的",
+                "iconPath": "pages/img/user0.png",
+                "selectedIconPath": "pages/img/user1.png"
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

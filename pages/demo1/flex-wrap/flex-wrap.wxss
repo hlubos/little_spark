@@ -1,0 +1,21 @@
+/* pages/demo01/flex-wrap/flex-wrap.wxss */
+.myContainer{
+    margin: 80rpx auto;
+    width: 600rpx;
+    height: 500rpx;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; /* nowrap  wrap-reverse wrap */
+  }
+  .demo{
+    width: 100px;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin: 15rpx;
+    text-align: center;
+    background-color: lightgreen;
+  }
+  .title{
+    text-align: center;
+  }

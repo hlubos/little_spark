@@ -1,0 +1,7 @@
+<!--pages/demo01/flex-direction/flex-direction.wxml-->
+<view class="title">容器属性 flex-direction的用法</view>
+<view class="myContainer">
+    <view class="demo A">A</view>
+    <view class="demo B">B</view>
+    <view class="demo C">C</view>
+</view>

@@ -1,0 +1,7 @@
+<view class="title">1.网络请求request</view>
+<view class="demo-box">
+    <view class="title">wx.request(OBJECT)</view>
+    <input placeholder="请输入您需要查询的单词" bindblur="wordBlur"></input>
+    <button type="primary" bindtap="search">查询</button>
+    <view class="status">释义：{{result}}</view>
+</view>
